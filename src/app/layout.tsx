@@ -26,6 +26,14 @@ export const metadata: Metadata = {
     siteName: `${DATA.name}`,
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "https://alihassanrajput.com/Ali%20Hassan%20CEO%20dp.png",
+        width: 800,
+        height: 600,
+        alt: `${DATA.name} Profile Picture`,
+      },
+    ],
   },
   robots: {
     index: true,
@@ -41,6 +49,7 @@ export const metadata: Metadata = {
   twitter: {
     title: `${DATA.name}`,
     card: "summary_large_image",
+    images: ["https://alihassanrajput.com/Ali%20Hassan%20CEO%20dp.png"],
   },
   verification: {
     google: "",

@@ -11,13 +11,13 @@ export const DATA = {
     "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Linkedin.",
   summary:
     "Meet **Ali Hassan Rajput**, a Software Engineer and AI Product Developer with over 4 years of experience in web and app development. I also run [**AH Bytes**](https://www.ahbytes.com/), my own software house, where I lead a team in delivering cutting-edge solutions tailored to client needs. I thrive on transforming complex challenges into elegant, intuitive, and user-friendly designs.",
-  avatarUrl: "https://ahbytes.com/_next/image?url=%2Fimages%2Fabout%2Falihassan.webp&w=1920&q=75",
+  avatarUrl: "/Ali Hassan CEO dp.png", 
   skills: [
     "React",
     "Next.js",
     "Typescript",
     "Node.js",
-    "Python",
+    "Python", 
     "Go",
     "Postgres",
     "Docker",
@@ -52,13 +52,13 @@ export const DATA = {
         url: "https://dub.sh/dillion-twitter",
         icon: Icons.x,
 
-        navbar: true,
+        navbar: false,
       },
       Youtube: {
         name: "Youtube",
         url: "https://dub.sh/dillion-youtube",
         icon: Icons.youtube,
-        navbar: true,
+        navbar: false,
       },
       email: {
         name: "Send Email",
